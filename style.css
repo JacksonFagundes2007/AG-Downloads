@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    background-image: url(https://i.pinimg.com/originals/a2/fb/23/a2fb230ac13e58c9232bc22892220593.png);
+    background-size: 100%;
+}
+
+#first {
+    text-align: center;
+
+}
+
+#title {
+    padding: 0;
+    margin: 0;
+    font-size: 50px;
+    font-family:  Poppins;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a {
+    color: white;
+}
+
+#sub-title {
+    padding: 0;
+    margin: 0;
+    font-family:  Aclonica;
+    color: white;
+}
+
+#download p {
+    font-family: Poppins;
+}
+
+#download {
+    display: flex;
+    justify-content: center;
+    margin-top: 25%;
+}
+
+
+.btn {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: Poppins;
+    border-radius: 5px;
+}
+  
+/* Darker background on mouse-over */
+.btn:hover {
+    background-color: rgb(31, 31, 31);
+}
+
+a:hover {
+    color: gray;
+    outline: none;
+}
+
+footer {
+    font-family: Poppins;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
